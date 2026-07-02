@@ -2,7 +2,7 @@ print("Hello, Git")
 
 print("Hello from AI Vietnam")
 print("Hello from AI Vietnam 2")
- gi
+
 print("Hello from AI Viet nam 3")
 def phan_loai_bmi(bmi):
     if bmi < 18.5:
