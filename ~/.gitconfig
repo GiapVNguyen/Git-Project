@@ -1,0 +1,17 @@
+[user]
+    name = Giap Nguyen
+    email = giapvietnguyen@gmail.com
+
+[core]
+    editor = code --wait
+
+[alias]
+    co = checkout
+    st = status
+    ci = commit
+    br = branch
+    last = log -1 HEAD
+    lg = log --oneline --graph --decorate --all
+    ps = push
+    df = diff
+    cm = commit -m
