@@ -1,10 +1,3 @@
-print("Hello, Git")
-
-print("Hello from AI Vietnam")
-print("Hello from AI Vietnam 2")
-
-print("Hello from AI Viet nam 3")
-
 def tinh_bmi(weight, height):
     """Tinh chi so BMI."""
     return weight / (height ** 2)
