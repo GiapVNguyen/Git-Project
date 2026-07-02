@@ -12,13 +12,13 @@ def phan_loai_bmi(bmi):
     else:
         return "Obesity"
     
-    def main():
-        print("Chương trình tính BMI")
-        weight = float(input("Nhập cân nặng (kg): "))
-        height = float(input("Nhập chiều cao (m): "))
-        bmi = weight / (height ** 2)
-        category = phan_loai_bmi(bmi)
-        print(f"Chỉ số BMI của bạn là: {bmi:.2f}")
-        print(f"Phân loại: {category}")
-    if __name__ == "__main__":
-        main()
+def main():
+    print("Chương trình tính BMI")
+    weight = float(input("Nhập cân nặng (kg): "))
+    height = float(input("Nhập chiều cao (m): "))
+    bmi = weight / (height ** 2)
+    category = phan_loai_bmi(bmi)
+    print(f"Chỉ số BMI của bạn là: {bmi:.2f}")
+    print(f"Phân loại: {category}")
+if __name__ == "__main__":
+    main()
