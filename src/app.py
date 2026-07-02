@@ -4,6 +4,11 @@ print("Hello from AI Vietnam")
 print("Hello from AI Vietnam 2")
 
 print("Hello from AI Viet nam 3")
+
+def tinh_bmi(weight, height):
+    """Tinh chi so BMI."""
+    return weight / (height ** 2)
+
 def phan_loai_bmi(bmi):
     if bmi < 18.5:
         return "Underweight"
